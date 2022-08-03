@@ -23,7 +23,7 @@ public class PersonajeEntity {
     private String imagen;
     private String nombre;
     private int edad;
-    private int peso;
+    private float peso;
     private String historia;
 
     @ManyToMany(mappedBy = "personajes", cascade = CascadeType.ALL)
